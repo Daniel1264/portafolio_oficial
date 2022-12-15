@@ -9,12 +9,12 @@ import Certificate from "./components/body/Certificate"
 function App() {
 
   return (
-    <div className="bg-wallpepercolor h-full overflow-hidden">
+    <div className="dark:bg-wallpepercolor w-full  bg-white h-full overflow-hidden">
         <Navbar />
             <Routes>
               <Route path="/" element={<Presentation />} />
               <Route path="/sobre_mi" element={<About />} />
-              <Route path="/proyectos" element={<Proyects />} />
+              <Route path="/proyectos" element={<Proyects />} />                                  
               <Route path="/contacto" element={<Contact />} />
               <Route path="/certificado" element={<Certificate />} />
             </Routes>

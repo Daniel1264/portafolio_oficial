@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="dark:bg-wallpepercolor bg-white w-full sm:h-screen flex sm:flex-row flex-col p-3 justify-center">
+    <div className="dark:bg-wallpepercolor bg-white w-full sm:h-screen flex sm:flex-row flex-col p-3 justify-center lg:max-w-screen-xl lg:m-auto">
       <div className="sm:w-3/4 w-full  h-full flex flex-col dark:bg-wallpepercolor bg-white sm:flex-row shadow-lg  gap-2">
         <div className="sm:w-1/2 w-full flex flex-col gap-3 p-3">
             <div>
@@ -38,7 +38,7 @@ const Contact = () => {
             <div className="w-full dark:bg-wallpepercolor bg-white shadow-2xl rounded-sm p-3 hover:scale-105 duration-200">
                 <h3 className="dark:text-white text-3xl text-wallpepercolor   font-medium">Contactar en Linkendln</h3>
                 <p className="dark:text-white text-wallpepercolor ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. F elit mensomeno before after newtor eallpeper</p>
-                <a href='https://www.linkedin.com/in/daniel-ramos-1ab664223/' className="text-secondary text-xl cursor-pointer">Ir</a>
+                <a href='https://www.linkedin.com/in/daniel-ramos-1ab664223/' target='blank' className="text-secondary text-xl cursor-pointer">Ir</a>
             </div>
         </div>
       </div>

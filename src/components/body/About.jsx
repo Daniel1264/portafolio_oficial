@@ -1,68 +1,129 @@
 import React from 'react'
-import {AiOutlineMessage, AiFillGithub, AiFillLinkedin, AiFillHtml5, AiOutlineLaptop, AiOutlineAntDesign, AiOutlineDatabase} from 'react-icons/ai'
+import {GoLocation} from 'react-icons/go'
+import {AiFillPhone, AiOutlineUser, AiOutlineMail, AiFillHeart} from 'react-icons/ai'
+import {BsFillPatchCheckFill} from 'react-icons/bs'
+import {BiMessageRoundedDots} from 'react-icons/bi'
+import {IoMdRepeat} from 'react-icons/io'
 import perfil from '../../image/perfil.jpg'
-import {DiCss3, DiJavascript1, DiReact, DiNodejsSmall} from 'react-icons/di'
-import {SiRedux, SiPostgresql, SiSequelize, SiExpress} from 'react-icons/si'
-import { Link } from 'react-router-dom'
 
 
 const About = () => {
   return (
-    <div className="w-full bg-white flex flex-col flex-wrap justify-center items-center sm:h-screen gap-2 p-2 dark:bg-wallpepercolor  font-sans font-semibold duration-200">
-      <div className="sm:w-3/4 flex justify-center items-center  w-full  sm:h-full gap-5 flex-col sm:flex-row">
-        <div data-aos="fade-up" data-aos-duration="1000" className="sm:w-3/5 w-4/5 relative sm:h-full  dark:bg-[rgb(10,25,47)] bg-white h-full rounded-lg shadow-lg shadow-black">
-          <div className="w-full h-1/4 flex flex-col  justify-center items-center dark:bg-secondary bg-wallpepercolor  rounded-t-lg">
-            <img className="rounded-full w-2/5 h-auto sm:absolute top-5 translate-y-20 sm:translate-y-0" src={perfil}/>
-          </div>
-          <div className='w-full flex flex-col justify-center gap-1 sm:gap-5 items-center p-3 h-1/2 mt-20'>
-            <h2 className="text-3xl text-wallpepercolor text-center dark:text-secondary">Daniel Ramos</h2>
-            <span className="text-2xl dark:text-white text-wallpepercolor">Frontend Developer React</span>
-            <span className="text-lg text-center text-wallpepercolor dark:text-[#8892B0]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam culpa magnam ut sed pariatur dolo</span>
-            <div className="flex w-full justify-evenly">
-            <AiFillGithub className="text-5xl text-wallpepercolor dark:text-secondary" />
-            <AiFillLinkedin className="text-5xl text-wallpepercolor dark:text-secondary" />
-            <AiOutlineMessage className="text-5xl text-wallpepercolor dark:text-secondary" />
-          </div>
-          <div className="w-full flex justify-evenly mt-5">
-            <button className="p-2  rounded-md border-2 border-wallpepercolor dark:border-secondary dark:hover:bg-secondary hover:bg-wallpepercolor duration-150 text-wallpepercolor dark:text-white hover:text-white">Descargar CV</button>
-            <Link to='/contacto' className="p-2 dark:bg-secondary bg-wallpepercolor rounded-md text-white">Contactarme</Link>
-          </div>
-        </div>
-        </div>
-        <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="600" data-aos-duration="600" className=" sm:w-4/5 sm:h-full w-4/5 p-2 overflow-y-auto flex flex-col-reverse rounded-lg justify-around gap-3 bg-wallpepercolor">
-          <div className=" flex flex-wrap justify-center">
-            <div className="w-56 flex flex-col gap-2">
-            <AiOutlineLaptop className="text-4xl" />
-            <h3 className="text-white text-2xl">FrontendDeveloper</h3>
-            <span className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam cumque perspiciatis consequatur nostrum h</span>
+    <div className="w-full h-auto dark:bg-wallpepercolor bg-white sm:h-full duration-150">
+      <div className="w-full h-40 bg-post bg-cover bg-bottom dark:bg-dark dark:bg-top lg:h-56">
+      </div>
+
+        <div className="w-full sm:h-full">
+          <div className=" w-full p-2 flex flex-col sm:flex-row sm:gap-3 sm:justify-center sm:max-w-max sm:h-full">
+            <div className=" w-full rounded-lg p-2  bg-white shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7)] flex flex-col gap-2  justify-center items-center -translate-y-10 dark:bg-wallpepercolor sm:items-start sm:justify-start sm:w-[40%] sm:max-h-max  sm:fixed sm:left-[8%] lg:static lg:w-[25%] lg:ml-20 lg:p-4 lg:gap-3 lg:-translate-y-28">
+              <div className="sm:w-full sm:flex sm:justify-center">
+                <img className="w-56 h-56 rounded-full lg:w-44 lg:h-44" src={perfil} />
+              </div>
+              <div className="w-full text-center relative">
+                  <BsFillPatchCheckFill className="absolute right-4 top-[20%] text-2xl lg:text-2xl text-light dark:text-secondary"/>
+                  <h2 className="text-[10vw] font-semibold dark:text-white sm:text-[3vw] lg:text-left lg:text-[2.5vw] ">Daniel Ramos</h2>
+                <span className="text-[6vw] dark:text-white sm:text-[2vw]">Frontend Jr React</span>
+              </div>
+              <div>
+                <h2 className="text-xl lg:text-2xl dark:text-white">Infomación básica</h2>
+              </div>
+              <div className="w-full p-3 flex flex-col gap-5">
+                <div className="flex justify-between w-full">
+                  <GoLocation className="text-3xl text-light dark:text-secondary lg:text-[2vw]" />
+                  <span className="text-xl font-medium dark:text-white lg:text-[1.1vw]">Oaxaca, Valles Centrales 71405</span>
+                </div>
+                <div className="w-full flex justify-between">
+                  <AiFillPhone className="text-3xl text-light dark:text-secondary lg:text-[2vw]" />
+                  <span className="text-xl font-medium dark:text-white lg:text-[1.2vw]">+52 951 153 1133</span>
+                </div>
+                <div className="w-full flex justify-between">
+                  <AiOutlineUser className="text-3xl text-light dark:text-secondary lg:text-[2vw]" />
+                  <span className="text-xl font-medium dark:text-white lg:text-[1.2vw]">20 años</span>
+                </div>
+                <div className="w-full flex justify-between">
+                  <AiOutlineMail className="text-3xl text-light dark:text-secondary lg:text-[2vw]" />
+                  <span className="text-xl font-medium dark:text-white lg:text-[1.2vw]">ramosperca015@gmail.com</span>
+                </div>
+              </div>
             </div>
-            <div className="w-56 flex flex-col gap-2">
-            <AiOutlineLaptop className="text-4xl" />
-            <h3 className="text-white text-2xl">Maquetador Web</h3>
-            <span className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam cumque perspiciatis consequatur nostrum h</span>
+
+            <div className="w-full flex flex-col gap-3 sm:w-2/4  sm:max-w-max sm:ml-[50%] lg:ml-0 lg:w-[50%] lg:items-center">
+            <div data-aos="fade-up" className="shadow-[#00000071] w-full rounded-lg shadow-lg p-2 sm:p-0 lg:w-4/5 ">
+              <div className="w-full flex flex-col justify-center gap-4 sm:flex-row ">
+                <div className="w-full flex flex-col justify-center items-center lg:justify-start lg:items-start">
+                  <img src={perfil} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
+                </div>
+                <div className="flex justify-between flex-col">
+                  <div className="w-full relative">
+                      <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
+                      <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-black dark:text-secondary sm:w-[2vw] sm:top-1 sm:left-2/4" />
+                  </div>
+                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en soluciones de frontend con react, usando herramientas como axios para peticiones asincronas, hooks, react-router, redux, talwindcss entre otras</span>
+                  <div className="flex items-center gap-6 dark:text-white">
+                    <BiMessageRoundedDots className="text-2xl" />
+                    <IoMdRepeat className="text-2xl" />
+                    <button className="focus:text-red-700 hover:scale-125 duration-150">
+                    <AiFillHeart className="text-2xl" />
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="w-56 flex flex-col gap-2">
-            <AiOutlineLaptop className="text-4xl" />
-            <h3 className="text-white text-2xl">Backend Developer</h3>
-            <span className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam cumque perspiciatis consequatur nostrum h</span>
+
+            <div data-aos="fade-up" className="shadow-[#00000071] w-full rounded-lg shadow-lg p-2 sm:p-0 lg:w-4/5 ">
+              <div className="w-full flex flex-col justify-center gap-4 sm:flex-row ">
+                <div className="w-full flex flex-col justify-center items-center lg:justify-start lg:items-start">
+                  <img src={perfil} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
+                </div>
+                <div className="flex justify-between flex-col">
+                  <div className="w-full relative">
+                      <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
+                      <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-white dark:text-secondary sm:w-[2vw] sm:top-1 sm:left-2/4" />
+                  </div>
+                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Lorem ipsum dolor sit amet consectetur ad perferendis, quae quam eos saepe eaque excepturi eius vitae cum dolore quos!</span>
+                  <div className="flex items-center gap-6 dark:text-white">
+                    <BiMessageRoundedDots className="text-2xl" />
+                    <IoMdRepeat className="text-2xl" />
+                    <button className="focus:text-red-700 hover:scale-125 duration-150">
+                    <AiFillHeart className="text-2xl" />
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="w-56 flex flex-col gap-2">
-            <AiOutlineLaptop className="text-4xl" />
-            <h3 className="text-white text-2xl">FullStack</h3>
-            <span className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam cumque perspiciatis consequatur nostrum h</span>
+
+            <div className="shadow-[#00000071] w-full rounded-lg shadow-lg p-2 sm:p-0 lg:w-4/5 ">
+              <div className="w-full flex flex-col justify-center gap-4 sm:flex-row ">
+                <div className="w-full flex flex-col justify-center items-center lg:justify-start lg:items-start">
+                  <img src={perfil} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
+                </div>
+                <div className="flex justify-between flex-col">
+                  <div className="w-full relative">
+                      <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
+                      <BsFillPatchCheckFill className="absolute right-10 top-5 text-2xl text-white dark:text-secondary sm:w-[2vw] sm:top-1 sm:left-2/4" />
+                  </div>
+                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Lorem ipsum dolor sit amet consectetur ad perferendis, quae quam eos saepe eaque excepturi eius vitae cum dolore quos!</span>
+                  <div className="flex items-center gap-6 dark:text-white">
+                    <BiMessageRoundedDots className="text-2xl" />
+                    <IoMdRepeat className="text-2xl" />
+                    <button className="focus:text-red-700 hover:scale-125 duration-150">
+                    <AiFillHeart className="text-2xl" />
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className=" flex justify-center flex-wrap gap-4  rounded-lg">
-            <AiFillHtml5 className="text-7xl text-orange-500" />
-            <DiCss3 className="text-7xl text-blue-800" />
-            <DiJavascript1  className="text-7xl text-yellow-400"/>
-            <DiReact className="text-7xl text-blue-500 " />
-            <SiRedux className="text-7xl text-violet-800" />
-            <DiNodejsSmall className="text-7xl text-green-700" />
-            <SiPostgresql  className="text-7xl text-blue-900"/>
-            <SiSequelize className="text-7xl text-blue-900" />
-            <SiExpress className="text-7xl text-green-700" />
+
+          <div data-aos="zoom-out" className="hidden bg-white dark:bg-wallpepercolor lg:w-[25%] lg:block lg:rounded-lg lg:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7)] lg:h-[90%] lg:mr-4">
+            <div className="w-full bg-cuarto h-52 bg-center bg-cover">
+            </div>
+            <div className="   p-5 dark:bg-wallpepercolor">
+              <h2 className="dark:text-white">Contactame</h2>
+              <p className="dark:text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus illo exercitationem quaerat dolorem inventore in autem rem odio cupiditate, qui quo distinctio soluta eligendi veniam repellendus amet rerum quis! Nobis.</p>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
