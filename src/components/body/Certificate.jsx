@@ -1,32 +1,56 @@
 import React from 'react'
-import {FiArrowRightCircle} from 'react-icons/fi'
-import { useState } from 'react'
+import {FcCommandLine, FcGraduationCap, FcMultipleDevices, FcAcceptDatabase} from 'react-icons/fc'
 
 const Certificate = () => {
 
-  const [showInformation, setShowInformation] = useState(false)
-
-  const handleClick = () => {
-    setShowInformation(!showInformation)
-  }
   return (
-    <div className="w-full bg-white dark:bg-wallpepercolor h-screen">
-      <div className="w-4/5 h-full m-auto flex justify-center items-center gap-5 flex-wrap ">
-        <div onClick={handleClick}  className="w-96 h-96 bg-certificado bg-cover bg-center relative overflow-hidden">
-          <div className={`flex flex-col justify-center items-center  w-full h-full absolute bg-secondary duration-100 ${showInformation ? 'scale-100 rounded-none' : 'scale-0 rounded-full'}`}>
-            <h2 className="text-3xl text-center text-white">Desarrollo frontend con react.js</h2>
+    <div className="w-full  bg-white dark:bg-wallpepercolor p-4 lg:h-screen">
+      <div className="w-full p-5 h-full m-auto flex justify-center items-center gap-10 flex-wrap sm:ml-10 lg:ml-0">
+        
+
+        <a href='https://certificates.academlo.com/en/verify/08125827091851?ref=email' target='blank'>
+          <div className="w-96 h-max p-3 hover:scale-110 duration-300 dark:bg-wallpepercolor drop-shadow-2xl shadow-xl shadow-slate-400 dark:shadow-xl dark:shadow-slate-900">
+            <div className='w-full h-1/2'>
+              <FcCommandLine className="text-9xl m-auto" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <h2 className="text-4xl text-wallpepercolor font-bold dark:text-secondary">Front-End Development with React</h2>
+              <span className="text-2xl text-wallpepercolor font-medium dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis iusto, ea vitae repellat expedita laudantium ad nostrum eligendi dolorem labore, ipsam eos consectetur ratione perspiciatis rerum laboriosam temporibus enim.</span>
+              <div>
+                <FcGraduationCap className="text-6xl ml-auto" />
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href='https://certificates.academlo.com/en/verify/44248802758901?ref=email' target='blank'>
+          <div className="w-96 h-max p-3 hover:scale-110 duration-300 dark:bg-wallpepercolor drop-shadow-2xl shadow-xl shadow-slate-400 dark:shadow-xl dark:shadow-slate-900">
+            <div className='w-full h-1/2'>
+              <FcMultipleDevices className="text-9xl m-auto" />
+            </div>
+            <div className="flex flex-col gap-2">
+              <h2 className="text-4xl text-wallpepercolor font-bold dark:text-secondary">Fundamentos</h2>
+              <span className="text-2xl text-wallpepercolor font-medium dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis iusto, ea vitae repellat expedita laudantium ad nostrum eligendi dolorem labore, ipsam eos consectetur ratione perspiciatis rerum laboriosam temporibus enim.</span>
+              <div>
+                <FcGraduationCap className="text-6xl ml-auto" />
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <div className="w-96 h-max p-3 hover:scale-110 duration-300 dark:bg-wallpepercolor drop-shadow-2xl shadow-xl shadow-slate-400 dark:shadow-xl dark:shadow-slate-900">
+          <div className='w-full h-1/2'>
+            <FcAcceptDatabase className="text-9xl m-auto" />
+          </div>
+          <div className="flex flex-col gap-2">
+            <h2 className="text-4xl text-wallpepercolor font-bold dark:text-secondary">Backend Node.js</h2>
+            <span className="text-2xl text-wallpepercolor font-medium dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis iusto, ea vitae repellat expedita laudantium ad nostrum eligendi dolorem labore, ipsam eos consectetur ratione perspiciatis rerum laboriosam temporibus enim.</span>
+            <div>
+              <FcGraduationCap className="text-6xl ml-auto" />
+            </div>
           </div>
         </div>
-        <div onClick={handleClick}  className="w-96 h-96 bg-certificado bg-cover bg-center relative overflow-hidden">
-          <div className={`flex flex-col justify-center items-center  w-full h-full absolute bg-secondary duration-100 ${showInformation ? 'scale-100 rounded-none' : 'scale-0 rounded-full'}`}>
-            <h2 className="text-3xl text-center text-white">Desarrollo frontend con react.js</h2>
-          </div>
-        </div>
-        <div onClick={handleClick}  className="w-96 h-96 bg-certificado bg-cover bg-center relative overflow-hidden">
-          <div className={`flex flex-col justify-center items-center  w-full h-full absolute bg-secondary duration-100 ${showInformation ? 'scale-100 rounded-none' : 'scale-0 rounded-full'}`}>
-            <h2 className="text-3xl text-center text-white">Desarrollo frontend con react.js</h2>
-          </div>
-        </div>
+
       </div>
     </div>
   )

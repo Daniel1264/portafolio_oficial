@@ -1,16 +1,29 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import Clock from "../layout/Clock"
+import { AiOutlineFacebook, AiOutlineMail} from 'react-icons/ai'
+import {BsInstagram} from 'react-icons/bs'
+import '../../index.css'
 
 
 const Presentation = () => {
+
   return (
     <div className=' dark:bg-wallpepercolor bg-white flex items-center justify-center h-screen duration-300 '>
-      <div data-aos="fade-right" className="flex flex-col justify-center items-center gap-6 p-3 max-w-screen-xl">
-      <span className="text-2xl lg:text-[2vw] font-mono text-wallpepercolor dark:text-first">Hola yo soy</span>
-      <h1 className="sm:text-7xl text-4xl lg:text-[6vw] dark:text-white font-sans font-bold text-center whitespace-nowrap text-black">Daniel Ramos Martínez</h1>
-      <h2 className="sm:text-6xl text-2xl text-center font-sans font-semibold text-black dark:text-[#8892B0]">Desarrollador web frontend</h2>
-      <span className="text-lg text-center text-wallpepercolor  dark:text-[#8892B0] lg:text-[2vw] font-sans  font-medium sm:w-3/4 lg:leading-[4vw]">Te invito a navegar en mi portafolio donde podrás encontrar información acerca de mí, proyectos y como contactarme</span>
-      <Link to='/sobre_mi' className="p-4 bg-wallpepercolor  dark:bg-secondary border-none   text-white tracking-wider text-xl duration-150  hover:shadow-lg hover:shadow-rose-500/50 font-familyOne font-bold">Vamos a navegar</Link>
+      <div data-aos="fade-right" className="flex flex-col justify-center items-center gap-1 p-3 max-w-screen-xl">
+      <div className="absolute flex gap-4 top-5 right-9">
+        <BsInstagram className="text-2xl text-wallpepercolor dark:text-white" />
+        <AiOutlineFacebook className="text-2xl text-wallpepercolor dark:text-white" />
+        <AiOutlineMail className="text-2xl text-wallpepercolor dark:text-white" />
+      </div>
+      <div className="hidden lg:block lg:w-56 lg:absolute lg:bg-wallpepercolor lg:dark:bg-secondary lg:right-0 lg:drop-shadow-2xl lg:shadow-lg">
+      <Clock />
+      </div>
+      <span className=" text-2xl lg:text-[2vw] text-center sm:mr-auto font-mono text-wallpepercolor dark:text-first">hola yo soy</span>
+      <h1 className="line sm:text-9xl text-6xl  lg:text-[14vw] text-transparent bg-clip-text bg-gradient-to-r  dark:from-secondary dark:to-red-700 from-wallpepercolor to-black font-sans font-black text-center tracking-widest text-wallpepercolor">DANIEL</h1>
+      <div className="flex w-full justify-center items-center gap-4 mt-10">
+        <div className="w-full h-[1px] dark:bg-secondary bg-wallpepercolor"/>
+        <span className="text-2xl text-[#111010b4] dark:text-first font-mono">ramosperca015@gmail.com</span>
+        <div className="w-full h-[1px] dark:bg-secondary bg-wallpepercolor" />
+      </div>
       </div>
     </div>
   )

@@ -56,7 +56,7 @@ const About = () => {
                 <div className="flex justify-between flex-col">
                   <div className="w-full relative">
                       <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
-                      <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-black dark:text-secondary sm:w-[2vw] sm:top-1 sm:left-2/4" />
+                      <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-first dark:text-secondary sm:w-[2vw] sm:top-3 sm:right-16 lg:left-2/4" />
                   </div>
                   <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en soluciones de frontend con react, usando herramientas como axios para peticiones asincronas, hooks, react-router, redux, talwindcss entre otras</span>
                   <div className="flex items-center gap-6 dark:text-white">
@@ -78,7 +78,7 @@ const About = () => {
                 <div className="flex justify-between flex-col">
                   <div className="w-full relative">
                       <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
-                      <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-white dark:text-secondary sm:w-[2vw] sm:top-1 sm:left-2/4" />
+                      <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-first dark:text-secondary sm:w-[2vw] sm:top-3 sm:right-16 sm:right-16 lg:left-2/4" />
                   </div>
                   <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Lorem ipsum dolor sit amet consectetur ad perferendis, quae quam eos saepe eaque excepturi eius vitae cum dolore quos!</span>
                   <div className="flex items-center gap-6 dark:text-white">
@@ -100,7 +100,7 @@ const About = () => {
                 <div className="flex justify-between flex-col">
                   <div className="w-full relative">
                       <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
-                      <BsFillPatchCheckFill className="absolute right-10 top-5 text-2xl text-white dark:text-secondary sm:w-[2vw] sm:top-1 sm:left-2/4" />
+                      <BsFillPatchCheckFill className="absolute right-10 top-5 text-2xl text-first dark:text-secondary sm:w-[2vw] sm:top-3 sm:right-16 sm:right-16 lg:left-2/4" />
                   </div>
                   <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Lorem ipsum dolor sit amet consectetur ad perferendis, quae quam eos saepe eaque excepturi eius vitae cum dolore quos!</span>
                   <div className="flex items-center gap-6 dark:text-white">

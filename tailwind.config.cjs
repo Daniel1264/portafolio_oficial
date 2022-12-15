@@ -15,6 +15,7 @@ module.exports = {
         dark: "url('/src/image/calle.gif')",
         cuarto: "url('/src/image/animate.gif')",
         fame: "url('/src/image/fame.jpg')",
+        fameMovil: "url('/src/image/fame_movil.gif')",
 
       // Proyectos
 
@@ -27,7 +28,7 @@ module.exports = {
       },
       screens: {
         sm: '850px',
-        lg:'1200px'
+        lg:'1310px'
       },
       colors: {
         first: '#5DEDCD',

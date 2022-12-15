@@ -1,4 +1,4 @@
-import halo from '../../image/halo.jpg'
+import fameMovil from '../../image/fame_movil.gif'
 import fame from '../../image/fame.gif'
 import {AiFillGithub, AiOutlineFacebook, AiFillInstagram, AiFillLinkedin} from 'react-icons/ai'
 import {GoLinkExternal} from 'react-icons/go'
@@ -7,12 +7,12 @@ const Proyects = () => {
   return (
     <div className="dark:bg-wallpepercolor  w-full h-full">
       <div className="w-full  h-[450px] relative">
-        <div className="absolute w-full h-[450px] bg-[#0000006c] z-10" ></div> 
+        <div className=" absolute w-full h-[450px] bg-[#0000006c] z-10" ></div> 
         <div className='w-full  relative'>
-          <img className="w-full object-cover h-[450px] mix-blend-overlay sm:hidden" src={halo} />
-          <img className="hidden  sm:block sm:w-full sm:object-cover sm:object-right sm:h-[450px]" src={fame} />
+          <img className="w-full object-cover h-[450px]  sm:hidden" src={fameMovil} />
+          <img className="hidden  sm:block sm:w-full sm:object-cover  sm:object-right sm:h-[450px]" src={fame} />
           <div className="absolute bottom-0 flex flex-col gap-10 w-full sm:pl-24 z-20">
-            <h2 className="text-2xl text-white font-medium sm:text-4xl lg:text-5xl">Fame App <span className="text-secondary">No-Country</span></h2> 
+            <h2 className="text-3xl text-white font-semibold sm:text-4xl lg:text-5xl">Fame App <span className="text-secondary font-bold">No-Country</span></h2> 
             <div className="flex gap-2 flex-wrap">
               <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Nuevas armas</span>
               <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Nuwvo nivel</span>

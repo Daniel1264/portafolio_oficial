@@ -26,7 +26,7 @@ const Navbar = () => {
             <span className={`w-1/2 dark:text-white hover:text-white text-wallpepercolor dark:hover:text-black ${!open && "hidden"} lg:text-[1.5vw] lg:font-semibold`}>Home</span>
         </NavLink>
         <Link to='/sobre_mi' className="flex items-center justify-between hover:bg-wallpepercolor hover:text-white  dark:hover:bg-secondary p-1 rounded-lg duration-300 cursor-pointer">
-            <AiOutlineUser className="text-3xl lg:text-4xl dark:text-white  " />
+            <AiOutlineUser className="text-3xl lg:text-4xl text-[#D61C4E]  " />
             <span className={`w-1/2 dark:text-white hover:text-white text-wallpepercolor dark:hover:text-black ${!open && "hidden"} lg:text-[1.5vw] lg:font-semibold`}>Sobre mi</span>
         </Link>
         <Link to='/proyectos' className="flex items-center justify-between hover:bg-wallpepercolor hover:text-white  dark:hover:bg-secondary p-1 rounded-lg duration-300 cursor-pointer">
