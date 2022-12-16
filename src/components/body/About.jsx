@@ -5,6 +5,9 @@ import {BsFillPatchCheckFill} from 'react-icons/bs'
 import {BiMessageRoundedDots} from 'react-icons/bi'
 import {IoMdRepeat} from 'react-icons/io'
 import perfil from '../../image/perfil.jpg'
+import frontend from '../../image/frontend.jpg'
+import setup from '../../image/computadora.png'
+import backend from '../../image/backend.jpg'
 
 
 const About = () => {
@@ -51,7 +54,7 @@ const About = () => {
             <div data-aos="fade-up" className="shadow-[#00000071] w-full rounded-lg shadow-lg p-2 sm:p-0 lg:w-4/5 ">
               <div className="w-full flex flex-col justify-center gap-4 sm:flex-row ">
                 <div className="w-full flex flex-col justify-center items-center lg:justify-start lg:items-start">
-                  <img src={perfil} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
+                  <img src={frontend} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
                 </div>
                 <div className="flex justify-between flex-col">
                   <div className="w-full relative">
@@ -73,14 +76,14 @@ const About = () => {
             <div data-aos="fade-up" className="shadow-[#00000071] w-full rounded-lg shadow-lg p-2 sm:p-0 lg:w-4/5 ">
               <div className="w-full flex flex-col justify-center gap-4 sm:flex-row ">
                 <div className="w-full flex flex-col justify-center items-center lg:justify-start lg:items-start">
-                  <img src={perfil} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
+                  <img src={setup} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
                 </div>
                 <div className="flex justify-between flex-col">
                   <div className="w-full relative">
-                      <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
-                      <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-first dark:text-secondary sm:w-[2vw] sm:top-3 sm:right-16 sm:right-16 lg:left-2/4" />
+                      <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Maquetador</span>
+                      <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-first dark:text-secondary sm:w-[2vw] sm:top-3  sm:right-16 lg:left-2/4" />
                   </div>
-                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Lorem ipsum dolor sit amet consectetur ad perferendis, quae quam eos saepe eaque excepturi eius vitae cum dolore quos!</span>
+                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en maquetar paginas web usando HTML5, CSS, Animaciones, transiciones y herramientas que realizan el estilado mas agil y rapido como tailwindcss</span>
                   <div className="flex items-center gap-6 dark:text-white">
                     <BiMessageRoundedDots className="text-2xl" />
                     <IoMdRepeat className="text-2xl" />
@@ -95,14 +98,14 @@ const About = () => {
             <div className="shadow-[#00000071] w-full rounded-lg shadow-lg p-2 sm:p-0 lg:w-4/5 ">
               <div className="w-full flex flex-col justify-center gap-4 sm:flex-row ">
                 <div className="w-full flex flex-col justify-center items-center lg:justify-start lg:items-start">
-                  <img src={perfil} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
+                  <img src={backend} className="w-56 h-56 rounded-full sm:rounded-none sm:w-56 sm:h-full lg:w-36" />
                 </div>
                 <div className="flex justify-between flex-col">
                   <div className="w-full relative">
-                      <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
-                      <BsFillPatchCheckFill className="absolute right-10 top-5 text-2xl text-first dark:text-secondary sm:w-[2vw] sm:top-3 sm:right-16 sm:right-16 lg:left-2/4" />
+                      <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Backend</span>
+                      <BsFillPatchCheckFill className="absolute right-10 top-5 text-2xl text-first dark:text-secondary sm:w-[2vw] sm:top-3  sm:right-16 lg:left-2/4" />
                   </div>
-                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Lorem ipsum dolor sit amet consectetur ad perferendis, quae quam eos saepe eaque excepturi eius vitae cum dolore quos!</span>
+                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en creacion de bases de datos SQl, utilizando como gestor de bases de datos postgres y un ORM como sequelize para conectar con las bases de datos</span>
                   <div className="flex items-center gap-6 dark:text-white">
                     <BiMessageRoundedDots className="text-2xl" />
                     <IoMdRepeat className="text-2xl" />
@@ -119,8 +122,8 @@ const About = () => {
             <div className="w-full bg-cuarto h-52 bg-center bg-cover">
             </div>
             <div className="   p-5 dark:bg-wallpepercolor">
-              <h2 className="dark:text-white">Contactame</h2>
-              <p className="dark:text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus illo exercitationem quaerat dolorem inventore in autem rem odio cupiditate, qui quo distinctio soluta eligendi veniam repellendus amet rerum quis! Nobis.</p>
+              <h2 className="dark:text-white text-3xl">Contactame</h2>
+              <p className="dark:text-white text-xl">Actualmente me encuentro de la busqueda de empleo, si te esta gustando mi trabajo puedes contactarme de diferentes formas para que podamos reunirnos y platicar</p>
             </div>
           </div>
 

@@ -14,9 +14,9 @@ const Proyects = () => {
           <div className="absolute bottom-0 flex flex-col gap-10 w-full sm:pl-24 z-20">
             <h2 className="text-3xl text-white font-semibold sm:text-4xl lg:text-5xl">Fame App <span className="text-secondary font-bold">No-Country</span></h2> 
             <div className="flex gap-2 flex-wrap">
-              <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Nuevas armas</span>
-              <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Nuwvo nivel</span>
-              <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Mejor pass</span>
+              <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Salud mental</span>
+              <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Programas</span>
+              <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Ejercicios</span>
             </div>
             <div className="flex gap-4">
               <button className="border-2 border-secondary p-2  text-white sm:text-2xl">Ver mas</button>
@@ -43,53 +43,66 @@ const Proyects = () => {
 
           <div className="w-full flex justify-center">
             <div className="w-4/5 h-full p-3 flex flex-wrap justify-center gap-4">
-              <div className="w-96 h-48 bg-warzone bg-cover relative hover:scale-105 duration-150 cursor-pointer">
+
+            <a href='https://wonderful-pasca-f7bbad.netlify.app' target='blank'>
+              <div className="w-96 h-48 bg-wather bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
                 <div className="flex justify-center items-center w-full h-full">
-                  <h2 className="text-white z-10 text-3xl">TITLE OF GAME</h2>
+                  <h2 className="text-white z-10 text-4xl font-semibold">WATHER APP</h2>
                 </div>
               </div>
+            </a>
 
+              <a href='https://delicate-beignet-96ed12.netlify.app' target='blank'>
               <div className="w-96 h-48 bg-letras bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
                 <div className="flex justify-center items-center w-full h-full">
-                  <h2 className="text-white z-10 text-3xl">TITLE OF GAME</h2>
+                  <h2 className="text-white z-10 text-4xl font-semibold">CRUD</h2>
                 </div>
               </div>
+              </a>
 
-              <div className="w-96 h-48 bg-ninja bg-cover relative hover:scale-105 duration-150 cursor-pointer">
+              <a href='https://stupendous-dragon-1d0cc0.netlify.app' target='blank'>
+              <div className="w-96 h-48 bg-rick bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
                 <div className="flex justify-center items-center w-full h-full">
-                  <h2 className="text-white z-10 text-3xl">TITLE OF GAME</h2>
+                  <h2 className="text-white z-10 text-4xl font-semibold">RICK AND MORTY</h2>
                 </div>
               </div>
+              </a>
 
-              <div className="w-96 h-48 bg-luna bg-cover relative hover:scale-105 duration-150 cursor-pointer">
+              <a href='https://cerulean-semolina-78b1a3.netlify.app' target='blank'>
+              <div className="w-96 h-48 bg-pokemon bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
                 <div className="flex justify-center items-center w-full h-full">
-                  <h2 className="text-white z-10 text-3xl">TITLE OF GAME</h2>
+                  <h2 className="text-white z-10 text-4xl font-semibold">POKEDEX</h2>
                 </div>
               </div>
+              </a>
 
-              <div className="w-96 h-48 bg-espada bg-cover relative hover:scale-105 duration-150 cursor-pointer">
+              <a href='https://lambent-ganache-24bc03.netlify.app' target='blank'>
+              <div className="w-96 h-48 bg-cafeteria bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
                 <div className="flex justify-center items-center w-full h-full">
-                  <h2 className="text-white z-10 text-3xl">TITLE OF GAME</h2>
+                  <h2 className="text-white z-10 text-4xl font-semibold">E-COMMERCE</h2>
                 </div>
               </div>
+              </a>
 
-              <div className="w-96 h-48 bg-gears bg-cover relative hover:scale-105 duration-150 cursor-pointer">
+              <a href='https://github.com/Daniel1264/chat' target='blank'>
+              <div className="w-96 h-48 bg-javascript bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
                 <div className="flex justify-center items-center w-full h-full">
-                  <h2 className="text-white z-10 text-3xl">TITLE OF GAME</h2>
+                  <h2 className="text-white z-10 text-4xl font-semibold">CHAT-API</h2>
                 </div>
               </div>
+              </a>
 
             </div>
           </div>

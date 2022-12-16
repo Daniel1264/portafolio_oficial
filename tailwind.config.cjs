@@ -19,12 +19,13 @@ module.exports = {
 
       // Proyectos
 
-        warzone: "url('/src/image/warzone.jpg')",
+        wather: "url('/src/image/paraguas.png')",
         letras: "url('/src/image/letras.jpg')",
-        ninja: "url('/src/image/ninja.jpg')",
-        luna: "url('/src/image/luna.png')",
-        espada: "url('/src/image/espada.png')",
-        gears: "url('/src/image/gears.jpg')"
+        rick: "url('/src/image/rick.png')",
+        pokemon: "url('/src/image/pokemon.jpg')",
+        cafeteria: "url('/src/image/cafeteria.jpg')",
+        javascript: "url('/src/image/javascript.jpg')",
+        city: "url('/src/image/city.jpg')"
       },
       screens: {
         sm: '850px',

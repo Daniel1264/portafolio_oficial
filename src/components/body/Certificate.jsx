@@ -15,7 +15,7 @@ const Certificate = () => {
             </div>
             <div className="flex flex-col gap-2">
               <h2 className="text-4xl text-wallpepercolor font-bold dark:text-secondary">Front-End Development with React</h2>
-              <span className="text-2xl text-wallpepercolor font-medium dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis iusto, ea vitae repellat expedita laudantium ad nostrum eligendi dolorem labore, ipsam eos consectetur ratione perspiciatis rerum laboriosam temporibus enim.</span>
+              <span className="text-xl text-wallpepercolor font-medium dark:text-white">En este modulo trabajamos con react.js una libreria de javascript que nos permite crear interfaces web usando herramientas como hooks, axios, customHooks, react-router, redux entre otras </span>
               <div>
                 <FcGraduationCap className="text-6xl ml-auto" />
               </div>
@@ -30,7 +30,7 @@ const Certificate = () => {
             </div>
             <div className="flex flex-col gap-2">
               <h2 className="text-4xl text-wallpepercolor font-bold dark:text-secondary">Fundamentos</h2>
-              <span className="text-2xl text-wallpepercolor font-medium dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis iusto, ea vitae repellat expedita laudantium ad nostrum eligendi dolorem labore, ipsam eos consectetur ratione perspiciatis rerum laboriosam temporibus enim.</span>
+              <span className="text-xl text-wallpepercolor font-medium dark:text-white">En este modulo trabajamos con los fundamentos web, iniciando con javascript basico, despues trabajando la parte semantica de una web con HTML5 para despues trabajar los estilos con CSS y finalmente manejar git para control de versiones y github con netfly para el despliegue de nuestra web</span>
               <div>
                 <FcGraduationCap className="text-6xl ml-auto" />
               </div>
@@ -44,7 +44,7 @@ const Certificate = () => {
           </div>
           <div className="flex flex-col gap-2">
             <h2 className="text-4xl text-wallpepercolor font-bold dark:text-secondary">Backend Node.js</h2>
-            <span className="text-2xl text-wallpepercolor font-medium dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis iusto, ea vitae repellat expedita laudantium ad nostrum eligendi dolorem labore, ipsam eos consectetur ratione perspiciatis rerum laboriosam temporibus enim.</span>
+            <span className="text-xl text-wallpepercolor font-medium dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis iusto, ea vitae repellat expedita laudantium ad nostrum eligendi dolorem labore, ipsam eos consectetur ratione perspiciatis rerum laboriosam temporibus enim.</span>
             <div>
               <FcGraduationCap className="text-6xl ml-auto" />
             </div>
