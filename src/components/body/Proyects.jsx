@@ -19,12 +19,17 @@ const Proyects = () => {
               <span className="bg-[#0000009f] text-white rounded-lg p-2 sm:text-2xl">Ejercicios</span>
             </div>
             <div className="flex gap-4">
-              <button className="border-2 border-secondary p-2  text-white sm:text-2xl">Ver mas</button>
-              <button className="bg-wallpepercolor p-2  text-white sm:text-2xl">Participar</button>
+            <a href='https://fame-app.vercel.app/' target='blank'>
+              <button className="border-2 border-secondary p-2  text-white sm:text-2xl hover:scale-105 duration-200">Ver mas</button>
+            </a>
+            <a href='https://www.nocountry.tech/' target='blank'>
+              <button className="bg-wallpepercolor p-2  text-white sm:text-2xl hover:scale-105 duration-200">Participar</button>
+            </a>
             </div>
             <div className="flex justify-end w-full items-end gap-2 p-5">
-              <AiFillGithub className="text-white text-2xl sm:text-4xl" />
+            <a href='https://fame-app.vercel.app/' target='blank'>
               <GoLinkExternal className="text-white text-2xl sm:text-4xl" />
+            </a>
             </div>
           </div>
         </div>
@@ -33,10 +38,18 @@ const Proyects = () => {
       </div>
         <div>
           <div className="flex justify-end p-2 gap-3">
+              <a href="https://www.facebook.com/profile.php?id=100076319509389" target='blank'>
               <AiOutlineFacebook className="text-wallpepercolor dark:text-white text-3xl" />
+              </a>
+              <a href="https://www.instagram.com/zilverk19/" target='blank'>
               <AiFillInstagram className="text-wallpepercolor dark:text-white text-3xl" />
+              </a>
+              <a href='https://github.com/Daniel1264' target='blank'>
               <AiFillGithub className="text-wallpepercolor dark:text-white text-3xl" />
+              </a>
+              <a href='https://www.linkedin.com/in/daniel-ramos-1ab664223/' target='blank'>
               <AiFillLinkedin className="text-wallpepercolor dark:text-white text-3xl" />
+              </a>
           </div>
 
           {/* separacion */}
