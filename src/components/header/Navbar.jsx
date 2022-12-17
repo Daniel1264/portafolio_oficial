@@ -47,7 +47,7 @@ const Navbar = () => {
         </a>
         <a href='https://www.linkedin.com/in/daniel-ramos-1ab664223/' target='blank' className="flex items-center justify-between hover:bg-wallpepercolor hover:text-white  dark:hover:bg-secondary p-1 rounded-lg duration-300 cursor-pointer">
             <AiFillLinkedin className="text-3xl lg:text-4xl text-cyan-700  " />
-            <span className={`w-1/2 dark:text-white hover:text-white text-wallpepercolor dark:hover:text-black ${!open && "hidden"} lg:text-[1.5vw] lg:font-semibold`}>GitHub</span>
+            <span className={`w-1/2 dark:text-white hover:text-white text-wallpepercolor dark:hover:text-black ${!open && "hidden"} lg:text-[1.5vw] lg:font-semibold`}>Linkendln</span>
         </a>
         <a href='https://api.whatsapp.com/send?phone=529511531133' target='blank' className="flex items-center justify-between hover:bg-wallpepercolor hover:text-white  dark:hover:bg-secondary p-1 rounded-lg duration-300 cursor-pointer">
             <AiOutlineMessage className="text-3xl text-green-400 lg:text-4xl " />

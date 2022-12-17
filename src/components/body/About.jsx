@@ -61,7 +61,7 @@ const About = () => {
                       <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Frontend React</span>
                       <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-first dark:text-secondary sm:w-[2vw] sm:top-3 sm:right-16 lg:left-2/4" />
                   </div>
-                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en soluciones de frontend con react, usando herramientas como axios para peticiones asincronas, hooks, react-router, redux, talwindcss entre otras</span>
+                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en soluciones de frontend con react, usando herramientas como axios para peticiones asíncronas, hooks, react-router, redux, talwindcss entre otras</span>
                   <div className="flex items-center gap-6 dark:text-white">
                     <BiMessageRoundedDots className="text-2xl" />
                     <IoMdRepeat className="text-2xl" />
@@ -83,7 +83,7 @@ const About = () => {
                       <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Maquetador</span>
                       <BsFillPatchCheckFill className="absolute right-10 text-2xl top-5 text-first dark:text-secondary sm:w-[2vw] sm:top-3  sm:right-16 lg:left-2/4" />
                   </div>
-                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en maquetar paginas web usando HTML5, CSS, Animaciones, transiciones y herramientas que realizan el estilado mas agil y rapido como tailwindcss</span>
+                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en maquetar páginas web usando HTML5, CSS, Animaciones, transiciones y herramientas que realizan el estilado más ágil y rápido como tailwindcss</span>
                   <div className="flex items-center gap-6 dark:text-white">
                     <BiMessageRoundedDots className="text-2xl" />
                     <IoMdRepeat className="text-2xl" />
@@ -105,7 +105,7 @@ const About = () => {
                       <span className="text-[10vw] text-left w-full dark:text-white sm:text-[3vw] lg:text-[1.5vw]">Backend</span>
                       <BsFillPatchCheckFill className="absolute right-10 top-5 text-2xl text-first dark:text-secondary sm:w-[2vw] sm:top-3  sm:right-16 lg:left-2/4" />
                   </div>
-                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en creacion de bases de datos SQl, utilizando como gestor de bases de datos postgres y un ORM como sequelize para conectar con las bases de datos</span>
+                  <span className="text-[5vw] dark:text-white sm:text-[1.7vw] lg:text-[1vw]">Trabajo en creación de bases de datos SQl, utilizando como gestor de bases de datos postgres y un ORM como sequelize para conectar con las bases de datos</span>
                   <div className="flex items-center gap-6 dark:text-white">
                     <BiMessageRoundedDots className="text-2xl" />
                     <IoMdRepeat className="text-2xl" />
@@ -122,8 +122,8 @@ const About = () => {
             <div className="w-full bg-cuarto h-52 bg-center bg-cover">
             </div>
             <div className="   p-5 dark:bg-wallpepercolor">
-              <h2 className="dark:text-white text-3xl">Contactame</h2>
-              <p className="dark:text-white text-xl">Actualmente me encuentro de la busqueda de empleo, si te esta gustando mi trabajo puedes contactarme de diferentes formas para que podamos reunirnos y platicar</p>
+              <h2 className="dark:text-white text-3xl">Contáctame</h2>
+              <p className="dark:text-white text-xl">Actualmente, me encuentro de la búsqueda de empleo, si te está gustando mi trabajo puedes contactarme de diferentes formas para que podamos reunirnos y platicar</p>
             </div>
           </div>
 
