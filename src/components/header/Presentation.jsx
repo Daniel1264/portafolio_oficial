@@ -30,7 +30,7 @@ const Presentation = () => {
       </div>
       </div>
       <span data-aos="fade-right"  className=" text-2xl lg:text-[2vw] text-center sm:mr-auto font-mono text-wallpepercolor dark:text-first">hola, yo soy</span>
-      <h1 data-aos="fade-right"  className="line sm:text-9xl text-6xl  lg:text-[14vw] text-transparent bg-clip-text bg-gradient-to-r  dark:from-secondary dark:to-red-700 from-wallpepercolor to-black font-sans font-black text-center tracking-widest text-wallpepercolor">DANIEL</h1>
+      <h1 data-aos="fade-right"  className="line sm:text-9xl text-7xl  lg:text-[14vw] text-transparent bg-clip-text bg-gradient-to-r  dark:from-secondary dark:to-red-700 from-wallpepercolor to-black font-sans font-black text-center tracking-widest text-wallpepercolor">DANIEL</h1>
       <div data-aos="fade-right"  className="flex w-full justify-center items-center gap-4 mt-10">
         <div className="w-full h-[1px] dark:bg-secondary bg-wallpepercolor"/>
         <span className="text-2xl text-[#111010b4] dark:text-first font-mono">ramosperca015@gmail.com</span>
