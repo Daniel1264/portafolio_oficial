@@ -28,7 +28,12 @@ module.exports = {
         pokemon: "url('/src/image/pokemon.jpg')",
         cafeteria: "url('/src/image/cafeteria.jpg')",
         javascript: "url('/src/image/javascript.jpg')",
-        city: "url('/src/image/city.jpg')"
+        city: "url('/src/image/city.jpg')",
+
+        // bg-style
+        vegas: "url('src/image/nieve.jpg')",
+        academlo: "url('src/image/academlo.png')",
+        artistcode: "url('src/image/artistcode.png')"
       },
       screens: {
         sm: '850px',

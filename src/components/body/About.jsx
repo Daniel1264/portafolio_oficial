@@ -12,11 +12,11 @@ import backend from '../../image/backend.jpg'
 
 const About = () => {
   return (
-    <div className="w-full h-auto dark:bg-wallpepercolor bg-white sm:h-full duration-150">
+    <div className="w-full  dark:bg-wallpepercolor bg-white duration-150 min-h-screen">
       <div className="w-full h-40 bg-post bg-cover bg-bottom dark:bg-dark dark:bg-top lg:h-56">
       </div>
 
-        <div className="w-full sm:h-full">
+        <div className="w-full">
           <div className=" w-full p-2 flex flex-col sm:flex-row sm:gap-3 sm:justify-center sm:max-w-max sm:h-full">
             <div className=" w-full rounded-lg p-2  bg-white shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7)] flex flex-col gap-2  justify-center items-center -translate-y-10 dark:bg-wallpepercolor sm:items-start sm:justify-start sm:w-[40%] sm:max-h-max  sm:fixed sm:left-[8%] lg:static lg:w-[25%] lg:ml-20 lg:p-4 lg:gap-3 lg:-translate-y-28">
               <div className="sm:w-full sm:flex sm:justify-center">
@@ -25,7 +25,7 @@ const About = () => {
               <div className="w-full text-center relative">
                   <BsFillPatchCheckFill className="absolute right-4 top-[20%] text-2xl lg:text-2xl text-light dark:text-secondary"/>
                   <h2 className="text-[10vw] font-semibold dark:text-white sm:text-[3vw] lg:text-left lg:text-[2.5vw] ">Daniel Ramos</h2>
-                <span className="text-[6vw] dark:text-white sm:text-[2vw]">Frontend Jr React</span>
+                <span className="text-[6vw]  dark:text-white sm:text-[2vw]">Frontend Jr React</span>
               </div>
               <div>
                 <h2 className="text-xl lg:text-2xl dark:text-white">Infomación básica</h2>
