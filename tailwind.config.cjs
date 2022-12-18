@@ -31,9 +31,8 @@ module.exports = {
         city: "url('/src/image/city.jpg')",
 
         // bg-style
-        vegas: "url('src/image/nieve.jpg')",
-        academlo: "url('src/image/academlo.png')",
-        artistcode: "url('src/image/artistcode.png')"
+        academlo: "url('/src/image/academlo.png')",
+        artistcode: "url('/src/image/artistcode.png')"
       },
       screens: {
         sm: '850px',
