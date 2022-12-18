@@ -25,7 +25,7 @@ const About = () => {
               <div className="w-full text-center relative">
                   <BsFillPatchCheckFill className="absolute right-4 top-[20%] text-2xl lg:text-2xl text-light dark:text-secondary"/>
                   <h2 className="text-[10vw] font-semibold dark:text-white sm:text-[3vw] lg:text-left lg:text-[2.5vw] ">Daniel Ramos</h2>
-                <span className="text-[6vw]  dark:text-white sm:text-[2vw]">Frontend Jr React</span>
+                <span className="text-[6vw]  dark:text-white sm:text-[2vw]">Frontend Jr React </span>
               </div>
               <div>
                 <h2 className="text-xl lg:text-2xl dark:text-white">Infomación básica</h2>

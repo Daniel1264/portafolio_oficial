@@ -8,7 +8,7 @@ const Certificate = () => {
       <div className="w-full p-5 h-full m-auto flex justify-center items-center gap-10 flex-wrap sm:ml-10 ">
         
 
-          <div className="w-[350px] sm:w-auto sm:h-auto flex flex-col dark:bg-wallpepercolor drop-shadow-2xl shadow-xl shadow-slate-400 dark:shadow-xl dark:shadow-slate-900 sm:flex-row">
+          <div className="w-[350px] sm:w-auto sm:h-auto flex flex-col dark:bg-wallpepercolor drop-shadow-2xl shadow-xl shadow-slate-400 dark:shadow-xl dark:shadow-slate-800 sm:flex-row">
             <div className='w-full h-[300px] sm:w-[250px] sm:h-[250px] bg-academlo bg-cover bg-center'>
             </div>
             <div className="flex flex-col gap-2 w-full p-2 sm:w-[400px]">
