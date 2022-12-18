@@ -1,9 +1,12 @@
 import React from 'react'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import {CgSandClock} from 'react-icons/cg'
+import { useState } from 'react';
 
 const Contact = () => {
     const form = useRef();
+    const [loading, setLoading] = useState('click')
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -12,6 +15,7 @@ const Contact = () => {
             emailjs.sendForm('service_77elxzi', 'template_f41wtrp', form.current, 'gkRD4ZcjR84wlknJe')
               .then((result) => {
                   console.log(result.text);
+                  setLoading(result)
                   alert('se envio el correo!!')
               }, (error) => {
                   console.log(error.text);
@@ -40,7 +44,7 @@ const Contact = () => {
                     <label htmlFor="mensaje" className="text-wallpepercolor text-xl font-medium dark:text-white">Mensaje</label>
                     <textarea placeholder="escribe tu mensaje" id="mnd" rows="6" cols="50" className="dark:bg-transparent border-b-2 dark:border-wallpepercolor dark:focus:border-white dark:text-white outline-none"></textarea>
                 </div>
-                <button className="tracking-wider shadow-2xl m-auto w-full p-2 dark:bg-secondary bg-wallpepercolor text-white hover:scale-105 duration-200">Enviar</button>
+                <button className=" tracking-wider flex justify-center items-center gap-3 shadow-2xl m-auto w-full p-2 dark:bg-secondary bg-wallpepercolor text-white hover:scale-105 duration-200">enviar</button>
             </form>
         </div>
         <div className="sm:w-1/2 w-full h-full p-3 bg-white dark:bg-wallpepercolor flex flex-col justify-evenly overflow-y-auto gap-3">

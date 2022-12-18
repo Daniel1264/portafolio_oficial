@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        light: "url('/src/image/light.jpg')",
+
+        // desing
         perfil: "url('/src/image/perfil.jpg')",
         certificado: "url('/src/image/react.png')",
         fundamentos: "url('/src/image/fundamentos.png')",
