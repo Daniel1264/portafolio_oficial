@@ -10,8 +10,8 @@ const Presentation = () => {
     <div className=' dark:bg-wallpepercolor  flex items-center justify-center h-screen duration-300 '>
       <div className="flex flex-col justify-center items-center  gap-1 p-3 max-w-screen-xl">
       <div className="absolute w-[85%] h-[90%] border-2 border-gray-600 top-5 " />
-      <span className="absolute text-5xl  font-extrabold top-0 bg-white  right-5  sm:top-auto sm:bottom-10 sm:text-7xl sm:right-16 dark:bg-wallpepercolor"><span className="text-transparent bg-clip-text bg-city bg-center">DR</span></span>
-      <div className="absolute flex gap-8 bottom-8 left-24 bg-white p-2 dark:bg-wallpepercolor">
+      <span className="absolute text-5xl  font-extrabold top-0 bg-white  right-5  sm:top-auto sm:bottom-[6%] sm:text-7xl sm:right-16 dark:bg-wallpepercolor"><span className="text-transparent bg-clip-text bg-city bg-center">DR</span></span>
+      <div className="absolute flex gap-8 bottom-[5%] left-[6%] bg-white p-2 dark:bg-wallpepercolor">
         <a href="https://www.instagram.com/zilverk19/" target='blank'>
         <BsInstagram className="text-2xl text-wallpepercolor dark:text-secondary hover:scale-125 duration-150" />
         </a>
