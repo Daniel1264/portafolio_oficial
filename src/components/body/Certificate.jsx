@@ -5,7 +5,7 @@ import {SiVirtualbox} from 'react-icons/si'
 const Certificate = () => {
 
   return (
-    <div className="w-full h-full  bg-white dark:bg-wallpepercolor p-4 ">
+    <div className="w-full h-full  bg-white dark:bg-wallpepercolor p-4 min-h-screen">
       <div className="w-full p-5 h-full m-auto flex justify-center items-center gap-10 flex-wrap sm:ml-10 ">
         
 
