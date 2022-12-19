@@ -6,7 +6,7 @@ const Certificate = () => {
   return (
     <div className="w-full h-full  bg-white dark:bg-wallpepercolor p-4 min-h-screen flex justify-center items-center">
       <div className="w-full p-5 h-full m-auto flex justify-center items-center gap-10 flex-wrap sm:ml-10 ">
-        
+        <div className="w-[80%] h-[80%] absolute border-2 border-wallpepercolor" />
 
           <div className="w-[350px] sm:w-auto sm:h-auto flex flex-col dark:bg-wallpepercolor drop-shadow-2xl shadow-xl shadow-slate-400 dark:shadow-xl dark:shadow-slate-800 sm:flex-row">
             <div className='w-full h-[300px] sm:w-[250px] sm:h-[250px] bg-academlo bg-cover bg-center'>

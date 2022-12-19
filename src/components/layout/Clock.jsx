@@ -17,7 +17,7 @@ const clock = () => {
   return (
     <div className="w-full flex justify-center">
       {
-        <h2 className="text-9xl font-medium text-white flex text-center flex-col">{time}</h2>
+        <h2 className="text-5xl font-medium text-white flex text-center flex-col  sm:text-9xl">{time}</h2>
       }
     </div>
   )

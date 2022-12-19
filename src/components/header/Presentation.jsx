@@ -22,12 +22,12 @@ const Presentation = () => {
         <AiOutlineMail className="text-2xl text-wallpepercolor dark:text-secondary hover:scale-125 duration-150" />
         </a>
       </div>
-      <div className="hidden lg:flex lg:justify-between lg:w-44 lg:h-96 lg:absolute lg:right-16 lg:bg-wallpepercolor lg:dark:bg-secondary  lg:top-0 lg:drop-shadow-2xl lg:shadow-lg">
+      <div className=" absolute flex w-24 top-24 right-0 dark:bg-secondary sm:justify-between sm:w-44 sm:h-96  sm:right-16 sm:bg-wallpepercolor   sm:top-0 sm:drop-shadow-2xl sm:shadow-lg">
       <Clock />
       <div className="flex flex-col justify-between bg-wallpepercolor dark:bg-secondary p-2">
-        <span className=" text-white text-3xl">H</span>
-        <span className=" text-white text-3xl">M</span>
-        <span className=" text-white text-3xl">S</span>
+        <span className=" text-white text-xl sm:text-3xl">H</span>
+        <span className=" text-white text-xl sm:text-3xl">M</span>
+        <span className=" text-white text-xl sm:text-3xl">S</span>
       </div>
       </div>
       <span data-aos="fade-right"  className=" text-2xl lg:text-[2vw] text-center sm:mr-auto font-mono text-wallpepercolor dark:text-first">hola, yo soy</span>
