@@ -118,12 +118,12 @@ const Proyects = () => {
               </div>
               </a>
 
-              <a href='https://lambent-ganache-24bc03.netlify.app' target='blank'>
+              <a href='https://cheerful-medovik-1c0cde.netlify.app' target='blank'>
               <div className="w-96 h-48 bg-cafeteria bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
                 <div className="flex justify-center items-center w-full h-full">
-                  <h2 className="text-white z-10 text-4xl font-semibold">E-COMMERCE</h2>
+                  <h2 className="text-white z-10 text-4xl font-semibold">PORTAFOLIO</h2>
                 </div>
               </div>
               </a>
