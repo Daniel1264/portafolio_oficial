@@ -54,12 +54,12 @@ const Proyects = () => {
               </a>
           </div>
 
-          <div className="w-full flex flex-wrap justify-center gap-14 items-center sm:ml-8">
+          <div className="w-full flex flex-wrap justify-center gap-14 items-center">
             <div className="w-[600px] h-[300px] bg-frontend relative bg-cover">
               <div className="bg-[#0000009c] h-full flex flex-col gap-4 relative p-1">
               <span className="text-3xl text-secondary font-semibold">En proceso</span>
                 <h2 className="text-white font-medium text-5xl">Consulta Medica</h2>
-                <p className="text-2xl text-white w-3/5 sm:w-4/5">Esta aplicacion esta en proces o de creacion y mantenimiento</p>
+                <p className="text-2xl text-white w-3/5 sm:w-4/5">Aplicación en proceso de creación y mantenimiento</p>
                 <SiAltiumdesigner className="absolute text-9xl sm:text-[12em] right-0 top-10   sm:translate-x-20 text-secondary " />
               </div>
             </div>
@@ -67,7 +67,7 @@ const Proyects = () => {
               <div className="bg-[#0000009c] h-full flex flex-col gap-4 relative p-1">
               <span className="text-3xl text-secondary font-semibold">En proceso</span>
                 <h2 className="text-white font-medium text-5xl">Red Social</h2>
-                <p className="text-2xl text-white w-3/5 sm:w-4/5">Esta aplicacion esta en proces o de creacion y mantenimiento</p>
+                <p className="text-2xl text-white w-3/5 sm:w-4/5">Aplicación en proceso de creación y mantenimiento</p>
                 <SiDatabricks className="absolute text-9xl sm:text-[12em] right-0 top-10    sm:translate-x-20 text-secondary " />
               </div>
             </div>

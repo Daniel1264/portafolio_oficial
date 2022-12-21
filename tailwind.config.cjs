@@ -20,7 +20,7 @@ module.exports = {
         fame: "url('/src/image/fame.jpg')",
         fameMovil: "url('/src/image/fame_movil.gif')",
         backend: "url('/src/image/backend.jpg')",
-        frontend: "url('/src/image/notice.jpg')",
+        frontend: "url('/src/image/medico.jpg')",
 
       // Proyectos
 
