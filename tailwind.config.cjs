@@ -19,6 +19,8 @@ module.exports = {
         cuarto: "url('/src/image/animate.gif')",
         fame: "url('/src/image/fame.jpg')",
         fameMovil: "url('/src/image/fame_movil.gif')",
+        backend: "url('/src/image/backend.jpg')",
+        frontend: "url('/src/image/notice.jpg')",
 
       // Proyectos
 
@@ -32,8 +34,8 @@ module.exports = {
 
         // bg-style
         vegas: "url('/src/image/nieve.jpg')",
-        academlo: "url('/src/image/academlo.png')",
-        artistcode: "url('/src/image/artistcode.png')"
+        setup: "url('/src/image/setup.jpg')",
+        setupMovil: "url('/src/image/setuplight.jpg')"
       },
       screens: {
         sm: '850px',
