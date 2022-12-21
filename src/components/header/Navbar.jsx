@@ -2,9 +2,12 @@ import React from 'react'
 import { useState } from 'react'
 import {BsFillArrowLeftSquareFill, BsMoonFill} from 'react-icons/bs';
 import {CiLight} from 'react-icons/ci'
-import {AiOutlineMessage, AiOutlineHome, AiOutlineUser, AiOutlineCodeSandbox,  AiOutlineContacts, AiFillGithub, AiFillLinkedin, AiOutlineSafetyCertificate} from 'react-icons/ai'
+import {AiOutlineMessage, AiOutlineHome, AiOutlineDownload, AiOutlineUser, AiOutlineCodeSandbox,  AiOutlineContacts, AiFillGithub, AiFillLinkedin, AiOutlineSafetyCertificate} from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import cv from '../../documents/Daniel_Ramos_CV.pdf'
+
+
 const Navbar = () => {
     
     const [open, setOpen] = useState(false)
@@ -41,6 +44,10 @@ const Navbar = () => {
             <AiOutlineContacts className="text-3xl lg:text-4xl text-wallpepercolor dark:text-white hover:text-white " />
             <span className={`w-1/2 dark:text-white hover:text-white text-wallpepercolor  ${!open && "hidden"} lg:text-[1.5vw] lg:font-semibold`}>contacto</span>
         </Link>
+        <a download='Daniel_Ramos_CV-MX' href={cv} className="flex items-center justify-between hover:bg-wallpepercolor hover:text-white  dark:hover:bg-secondary p-1 rounded-lg duration-300 cursor-pointer">
+            <AiOutlineDownload className="text-3xl lg:text-4xl text-wallpepercolor dark:text-white hover:text-white " />
+            <span className={`w-1/2 dark:text-white hover:text-white text-wallpepercolor  ${!open && "hidden"} lg:text-[1.5vw] lg:font-semibold`}>Descargar CV</span>
+        </a>
         <a href='https://github.com/Daniel1264' target='blank' className="flex items-center justify-between hover:bg-wallpepercolor hover:text-white  dark:hover:bg-secondary p-1 rounded-lg duration-300 cursor-pointer">
             <AiFillGithub className="text-3xl lg:text-4xl dark:text-white dark:hover:text-white  " />
             <span className={`w-1/2 dark:text-white hover:text-white text-wallpepercolor ${!open && "hidden"} lg:text-[1.5vw] lg:font-semibold`}>GitHub</span>
@@ -61,5 +68,5 @@ const Navbar = () => {
     </div>
   )
 }
-//  https://api.whatsapp.com/send?phone=529511531133
+
 export default Navbar
