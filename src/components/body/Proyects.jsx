@@ -128,7 +128,7 @@ const Proyects = () => {
               </div>
               </a>
 
-              <a href='https://github.com/Daniel1264/chat' target='blank'>
+              <a href='https://github.com/Daniel1264/Api_usuarios' target='blank'>
               <div className="w-96 h-48 bg-javascript bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
@@ -148,7 +148,7 @@ const Proyects = () => {
               </div>
               </a>
 
-              <a href='https://github.com/Daniel1264/chat' target='blank'>
+              <a href='https://github.com/Daniel1264/users_protected_routers' target='blank'>
               <div className="w-96 h-48 bg-javascript bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
@@ -158,7 +158,7 @@ const Proyects = () => {
               </div>
               </a>
 
-              <a href='https://github.com/Daniel1264/chat' target='blank'>
+              <a href='https://github.com/Daniel1264/redSocial_Api' target='blank'>
               <div className="w-96 h-48 bg-javascript bg-cover relative hover:scale-105 duration-150 cursor-pointer">
                 <div className="absolute w-full h-full bg-[#0505059c]">
                 </div>
