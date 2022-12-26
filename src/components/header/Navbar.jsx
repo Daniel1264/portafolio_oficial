@@ -5,7 +5,7 @@ import {CiLight} from 'react-icons/ci'
 import {AiOutlineMessage, AiOutlineHome, AiOutlineDownload, AiOutlineUser, AiOutlineCodeSandbox,  AiOutlineContacts, AiFillGithub, AiFillLinkedin, AiOutlineSafetyCertificate} from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
-import cv from '../../documents/Daniel_Ramos_CV.pdf'
+import cv from '../../documents/Daniel_Ramos_CV-ES.pdf'
 
 
 const Navbar = () => {
