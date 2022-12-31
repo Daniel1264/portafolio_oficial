@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div className="w-full flex justify-between">
                   <AiOutlineMail className="text-3xl text-light dark:text-secondary lg:text-[2vw]" />
-                  <span className="text-xl font-medium dark:text-white lg:text-[1.2vw]">ramosperca015@gmail.com</span>
+                  <span className="text-xl font-medium dark:text-white lg:text-[1vw]">danielramosmartinez72@gmail.com</span>
                 </div>
               </div>
             </div>

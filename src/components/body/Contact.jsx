@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 const Contact = () => {
     const form = useRef();
-    const [loading, setLoading] = useState('click')
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -56,7 +55,7 @@ const Contact = () => {
             <div className="w-full dark:bg-wallpepercolor bg-white shadow-xl  rounded-sm p-3 hover:scale-105 duration-200">
                 <h3 className="dark:text-white text-3xl text-wallpepercolor font-medium ">Enviar correo personalizado</h3>
                 <p className="dark:text-white text-wallpepercolor ">Envia un mensaje con documentos, etc.</p>
-                <a href='mailto:ramosperca015@gmail.com' className="text-secondary text-xl cursor-pointer">Enviar correo</a>
+                <a href='mailto:danielramosmartinez72@gmail.com' className="text-secondary text-xl cursor-pointer">Enviar correo</a>
             </div>
             <div className="w-full dark:bg-wallpepercolor bg-white shadow-2xl rounded-sm p-3 hover:scale-105 duration-200">
                 <h3 className="dark:text-white text-3xl text-wallpepercolor   font-medium">Contactar en Linkendln</h3>

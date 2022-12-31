@@ -18,7 +18,7 @@ const Presentation = () => {
         <a href="https://www.facebook.com/profile.php?id=100076319509389" target='blank'>
         <AiOutlineFacebook className="text-2xl text-wallpepercolor dark:text-secondary hover:scale-125 duration-150" />
         </a>
-        <a href='mailto:ramosperca015@gmail.com'>
+        <a href='mailto:danielramosmartinez72@gmail.com'>
         <AiOutlineMail className="text-2xl text-wallpepercolor dark:text-secondary hover:scale-125 duration-150" />
         </a>
       </div>
@@ -34,7 +34,7 @@ const Presentation = () => {
       <h1 data-aos="fade-right"  className="line sm:text-9xl text-7xl  lg:text-[14vw] text-transparent bg-clip-text bg-gradient-to-r  dark:from-secondary dark:to-red-700 from-wallpepercolor to-black font-sans font-black text-center tracking-widest text-wallpepercolor">DANIEL</h1>
       <div data-aos="fade-right"  className="flex w-full justify-center items-center gap-4 mt-10">
         <div className="w-full h-[1px] dark:bg-secondary bg-wallpepercolor"/>
-        <span className="text-[4vw] text-[#111010b4] dark:text-first font-mono sm:text-4xl">ramosperca015@gmail.com</span>
+        <span className="text-[4vw] text-[#111010b4] dark:text-first font-mono sm:text-4xl">danielramosmartinez72@gmail.com</span>
         <div className="w-full h-[1px] dark:bg-secondary bg-wallpepercolor" />
       </div>
       </div>
